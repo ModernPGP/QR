@@ -6,8 +6,8 @@ Methods of implementing support for verification / signing og PGP keys using QR 
 
 QR Code URI
 ===========
-* monkeysphere URI scheme is ugly: ``openpgp4fpr:73EE2314F65FA92EC2390D3A718C070100012282``
-* ``openpgp4fpr`` makes no sense
+* monkeysphere URI scheme: ``openpgp4fpr:73EE2314F65FA92EC2390D3A718C070100012282``
+* ``openpgp4fpr`` OpenPGP v4 fingerprint
 
 our proposal: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282``  
 optional parameters:
